@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Custom scrollbar for avatar picker */
+.avatar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #fbbf24 transparent;
+}
+
+.avatar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.avatar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 999px;
+  margin: 8px 0;
+}
+
+.avatar-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f59e0b, #d97706);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.avatar-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #fbbf24, #f59e0b);
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Bugtong: Classic Pinoy Game",
+  "description": "A classic Filipino riddle game featuring avatars of Maria Clara, Ibarra, and other cultural icons. Built with Firebase leaderboard and offline progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
