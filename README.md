@@ -18,3 +18,4 @@ View your app in AI Studio: https://ai.studio/apps/4510ea50-4907-45a7-a1ed-50a6d
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+# Bugtong2x
